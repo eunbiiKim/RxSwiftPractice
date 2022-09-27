@@ -7,23 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0030447E53D3B21B034AA5E1 /* Pods_RxSwiftPractice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75A5E4D5509F1EDCFF8F404E /* Pods_RxSwiftPractice.framework */; };
 		C3E5F17E28E299FE008FB2F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E5F17D28E299FE008FB2F4 /* AppDelegate.swift */; };
 		C3E5F18028E299FE008FB2F4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E5F17F28E299FE008FB2F4 /* SceneDelegate.swift */; };
-		C3E5F18228E299FE008FB2F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E5F18128E299FE008FB2F4 /* ViewController.swift */; };
-		C3E5F18528E299FE008FB2F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3E5F18328E299FE008FB2F4 /* Main.storyboard */; };
+		C3E5F18228E299FE008FB2F4 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E5F18128E299FE008FB2F4 /* MainViewController.swift */; };
 		C3E5F18728E299FF008FB2F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3E5F18628E299FF008FB2F4 /* Assets.xcassets */; };
 		C3E5F18A28E299FF008FB2F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3E5F18828E299FF008FB2F4 /* LaunchScreen.storyboard */; };
+		C3E5F19228E2AFBF008FB2F4 /* MainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E5F19128E2AFBF008FB2F4 /* MainCell.swift */; };
+		C3E5F19428E2B51C008FB2F4 /* NumbersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E5F19328E2B51C008FB2F4 /* NumbersViewController.swift */; };
+		C3E5F19628E2B561008FB2F4 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E5F19528E2B560008FB2F4 /* BaseViewController.swift */; };
+		C3E5F19828E2C70C008FB2F4 /* SimpleValidationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E5F19728E2C70C008FB2F4 /* SimpleValidationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2E2F7936D0692D57BD1E6095 /* Pods-RxSwiftPractice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftPractice.debug.xcconfig"; path = "Target Support Files/Pods-RxSwiftPractice/Pods-RxSwiftPractice.debug.xcconfig"; sourceTree = "<group>"; };
+		75A5E4D5509F1EDCFF8F404E /* Pods_RxSwiftPractice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwiftPractice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3E5F17A28E299FE008FB2F4 /* RxSwiftPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxSwiftPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3E5F17D28E299FE008FB2F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C3E5F17F28E299FE008FB2F4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C3E5F18128E299FE008FB2F4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C3E5F18428E299FE008FB2F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C3E5F18128E299FE008FB2F4 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		C3E5F18628E299FF008FB2F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C3E5F18928E299FF008FB2F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C3E5F18B28E299FF008FB2F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3E5F19128E2AFBF008FB2F4 /* MainCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCell.swift; sourceTree = "<group>"; };
+		C3E5F19328E2B51C008FB2F4 /* NumbersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumbersViewController.swift; sourceTree = "<group>"; };
+		C3E5F19528E2B560008FB2F4 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		C3E5F19728E2C70C008FB2F4 /* SimpleValidationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleValidationViewController.swift; sourceTree = "<group>"; };
+		EA82680B96C3379320749C7A /* Pods-RxSwiftPractice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftPractice.release.xcconfig"; path = "Target Support Files/Pods-RxSwiftPractice/Pods-RxSwiftPractice.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +41,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0030447E53D3B21B034AA5E1 /* Pods_RxSwiftPractice.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4656B8C0D1332CD6B551D609 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2E2F7936D0692D57BD1E6095 /* Pods-RxSwiftPractice.debug.xcconfig */,
+				EA82680B96C3379320749C7A /* Pods-RxSwiftPractice.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		C3E5F17128E299FE008FB2F4 = {
 			isa = PBXGroup;
 			children = (
 				C3E5F17C28E299FE008FB2F4 /* RxSwiftPractice */,
 				C3E5F17B28E299FE008FB2F4 /* Products */,
+				4656B8C0D1332CD6B551D609 /* Pods */,
+				ED63E5E2A437694E7F5DDA3D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +80,24 @@
 			children = (
 				C3E5F17D28E299FE008FB2F4 /* AppDelegate.swift */,
 				C3E5F17F28E299FE008FB2F4 /* SceneDelegate.swift */,
-				C3E5F18128E299FE008FB2F4 /* ViewController.swift */,
-				C3E5F18328E299FE008FB2F4 /* Main.storyboard */,
+				C3E5F19528E2B560008FB2F4 /* BaseViewController.swift */,
+				C3E5F18128E299FE008FB2F4 /* MainViewController.swift */,
+				C3E5F19328E2B51C008FB2F4 /* NumbersViewController.swift */,
+				C3E5F19728E2C70C008FB2F4 /* SimpleValidationViewController.swift */,
+				C3E5F19128E2AFBF008FB2F4 /* MainCell.swift */,
 				C3E5F18628E299FF008FB2F4 /* Assets.xcassets */,
 				C3E5F18828E299FF008FB2F4 /* LaunchScreen.storyboard */,
 				C3E5F18B28E299FF008FB2F4 /* Info.plist */,
 			);
 			path = RxSwiftPractice;
+			sourceTree = "<group>";
+		};
+		ED63E5E2A437694E7F5DDA3D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				75A5E4D5509F1EDCFF8F404E /* Pods_RxSwiftPractice.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +107,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C3E5F18E28E299FF008FB2F4 /* Build configuration list for PBXNativeTarget "RxSwiftPractice" */;
 			buildPhases = (
+				0AC512506278E3EDA6DAC3E8 /* [CP] Check Pods Manifest.lock */,
 				C3E5F17628E299FE008FB2F4 /* Sources */,
 				C3E5F17728E299FE008FB2F4 /* Frameworks */,
 				C3E5F17828E299FE008FB2F4 /* Resources */,
+				AFBB8F3BD438D12BCB8AD251 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,34 +162,71 @@
 			files = (
 				C3E5F18A28E299FF008FB2F4 /* LaunchScreen.storyboard in Resources */,
 				C3E5F18728E299FF008FB2F4 /* Assets.xcassets in Resources */,
-				C3E5F18528E299FE008FB2F4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0AC512506278E3EDA6DAC3E8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RxSwiftPractice-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AFBB8F3BD438D12BCB8AD251 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RxSwiftPractice/Pods-RxSwiftPractice-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RxSwiftPractice/Pods-RxSwiftPractice-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RxSwiftPractice/Pods-RxSwiftPractice-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C3E5F17628E299FE008FB2F4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3E5F18228E299FE008FB2F4 /* ViewController.swift in Sources */,
+				C3E5F18228E299FE008FB2F4 /* MainViewController.swift in Sources */,
+				C3E5F19828E2C70C008FB2F4 /* SimpleValidationViewController.swift in Sources */,
+				C3E5F19428E2B51C008FB2F4 /* NumbersViewController.swift in Sources */,
 				C3E5F17E28E299FE008FB2F4 /* AppDelegate.swift in Sources */,
+				C3E5F19228E2AFBF008FB2F4 /* MainCell.swift in Sources */,
 				C3E5F18028E299FE008FB2F4 /* SceneDelegate.swift in Sources */,
+				C3E5F19628E2B561008FB2F4 /* BaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		C3E5F18328E299FE008FB2F4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C3E5F18428E299FE008FB2F4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C3E5F18828E299FF008FB2F4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -284,6 +356,7 @@
 		};
 		C3E5F18F28E299FF008FB2F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E2F7936D0692D57BD1E6095 /* Pods-RxSwiftPractice.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -294,7 +367,6 @@
 				INFOPLIST_FILE = RxSwiftPractice/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -312,6 +384,7 @@
 		};
 		C3E5F19028E299FF008FB2F4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA82680B96C3379320749C7A /* Pods-RxSwiftPractice.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -322,7 +395,6 @@
 				INFOPLIST_FILE = RxSwiftPractice/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
