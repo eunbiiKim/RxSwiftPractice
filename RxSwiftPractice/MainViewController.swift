@@ -49,6 +49,9 @@ extension MainViewController: UITableViewDataSource, UITableViewDelegate {
             case 1:
                 cell.titleLabel.text = "Simple validation"
                 cell.subtitleLabel.text = "Bindings"
+            case 2:
+                cell.titleLabel.text = "Geolocation Subscription"
+                cell.subtitleLabel.text = "Observer, service and Drive example"
             default:
                 cell.titleLabel.text = "\(indexPath.row)"
                 cell.subtitleLabel.text = "\(indexPath.row)"
@@ -62,6 +65,8 @@ extension MainViewController: UITableViewDataSource, UITableViewDelegate {
                 goTo(NumbersViewController() as UIViewController)
             case 1:
                 goTo(SimpleValidationViewController() as UIViewController)
+            case 2:
+                goTo(GeolocationViewController() as UIViewController)
             default:
                 goTo(UIViewController())
                 

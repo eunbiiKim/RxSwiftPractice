@@ -17,6 +17,8 @@
 		C3E5F19428E2B51C008FB2F4 /* NumbersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E5F19328E2B51C008FB2F4 /* NumbersViewController.swift */; };
 		C3E5F19628E2B561008FB2F4 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E5F19528E2B560008FB2F4 /* BaseViewController.swift */; };
 		C3E5F19828E2C70C008FB2F4 /* SimpleValidationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E5F19728E2C70C008FB2F4 /* SimpleValidationViewController.swift */; };
+		C3E5F19A28E2DB6F008FB2F4 /* GeolocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E5F19928E2DB6F008FB2F4 /* GeolocationViewController.swift */; };
+		C3E9D33828E3FA9D00A37BA8 /* GeolocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E9D33728E3FA9D00A37BA8 /* GeolocationService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,8 @@
 		C3E5F19328E2B51C008FB2F4 /* NumbersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumbersViewController.swift; sourceTree = "<group>"; };
 		C3E5F19528E2B560008FB2F4 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		C3E5F19728E2C70C008FB2F4 /* SimpleValidationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleValidationViewController.swift; sourceTree = "<group>"; };
+		C3E5F19928E2DB6F008FB2F4 /* GeolocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeolocationViewController.swift; sourceTree = "<group>"; };
+		C3E9D33728E3FA9D00A37BA8 /* GeolocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeolocationService.swift; sourceTree = "<group>"; };
 		EA82680B96C3379320749C7A /* Pods-RxSwiftPractice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftPractice.release.xcconfig"; path = "Target Support Files/Pods-RxSwiftPractice/Pods-RxSwiftPractice.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -82,14 +86,24 @@
 				C3E5F17F28E299FE008FB2F4 /* SceneDelegate.swift */,
 				C3E5F19528E2B560008FB2F4 /* BaseViewController.swift */,
 				C3E5F18128E299FE008FB2F4 /* MainViewController.swift */,
-				C3E5F19328E2B51C008FB2F4 /* NumbersViewController.swift */,
-				C3E5F19728E2C70C008FB2F4 /* SimpleValidationViewController.swift */,
+				C3E5F19B28E2DB9E008FB2F4 /* examples */,
 				C3E5F19128E2AFBF008FB2F4 /* MainCell.swift */,
 				C3E5F18628E299FF008FB2F4 /* Assets.xcassets */,
 				C3E5F18828E299FF008FB2F4 /* LaunchScreen.storyboard */,
 				C3E5F18B28E299FF008FB2F4 /* Info.plist */,
 			);
 			path = RxSwiftPractice;
+			sourceTree = "<group>";
+		};
+		C3E5F19B28E2DB9E008FB2F4 /* examples */ = {
+			isa = PBXGroup;
+			children = (
+				C3E9D33728E3FA9D00A37BA8 /* GeolocationService.swift */,
+				C3E5F19328E2B51C008FB2F4 /* NumbersViewController.swift */,
+				C3E5F19728E2C70C008FB2F4 /* SimpleValidationViewController.swift */,
+				C3E5F19928E2DB6F008FB2F4 /* GeolocationViewController.swift */,
+			);
+			path = examples;
 			sourceTree = "<group>";
 		};
 		ED63E5E2A437694E7F5DDA3D /* Frameworks */ = {
@@ -214,11 +228,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3E9D33828E3FA9D00A37BA8 /* GeolocationService.swift in Sources */,
 				C3E5F18228E299FE008FB2F4 /* MainViewController.swift in Sources */,
 				C3E5F19828E2C70C008FB2F4 /* SimpleValidationViewController.swift in Sources */,
 				C3E5F19428E2B51C008FB2F4 /* NumbersViewController.swift in Sources */,
 				C3E5F17E28E299FE008FB2F4 /* AppDelegate.swift in Sources */,
 				C3E5F19228E2AFBF008FB2F4 /* MainCell.swift in Sources */,
+				C3E5F19A28E2DB6F008FB2F4 /* GeolocationViewController.swift in Sources */,
 				C3E5F18028E299FE008FB2F4 /* SceneDelegate.swift in Sources */,
 				C3E5F19628E2B561008FB2F4 /* BaseViewController.swift in Sources */,
 			);
